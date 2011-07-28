@@ -1,0 +1,369 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #FFF;
+  font-family: 'Molengo', 'Adobe Caslon Pro', 'Hoefler Text', Garamond, serif;
+}
+
+#logged {
+	float: right;
+	border: 1px solid #d52100;
+	padding: 10px;
+	margin: 20px;
+	color: #d52100;
+}
+
+#logged a {
+	color: #EEE;
+}
+
+#box {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+#topbarÂ {
+	text-align: center;
+	width: 100%;
+	height: 100px;
+}
+
+h1, h2, h3, h4, a, a:hover {
+	color: #d52100;	
+  font-family: 'Myriad Pro', Corbel, 'Helvetica Neue', Helvetica, 'Lucida Grande', Verdana, sans-serif;
+}
+
+#topbar h1 {
+	width: 90%;
+	background: #FFF;
+	text-align: right;
+	margin-right: 10%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#topbar h1 a {
+	font-family: times;
+	margin-left: 10%;
+	color: #FFF;
+	text-decoration: none;
+	letter-spacing: 15px;
+	font-size: 17pt;
+}
+
+#menu {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu ul {
+	padding: 10px;
+}
+
+#menu li {
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+}
+
+#menu li span.count {
+	padding: 5px;
+	color: #AAA;
+	font-size: 10pt;
+}
+
+#menu li a {
+	padding: 5px;
+	font-size: 10pt;
+}
+
+#menu li.active {
+	border-bottom: 5px solid #d52100;
+}
+
+#menu a {
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#menu a:hover {
+	color: #333;
+}
+
+#menu li:hover {
+}
+
+#banner {
+	border-bottom: 4px solid #d52100;
+}
+
+#content {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+	padding: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 150px;
+}
+
+#content h1 {
+	font-size: 16pt;
+	color: #d52100;
+}
+#content h2 {
+	font-size: 14pt;
+	color: #d52100;
+}
+p, #content p.intro {
+	font-size: 11pt;
+	line-height: 13pt;
+}
+
+#content div.short_blog_post,  #content div.short_post{
+	margin-top: 15px;
+}
+
+#content div.short_blog_post ul.tags, #content div.short_post ul.tags {
+	margin-left: 20px;
+}
+
+#content div.short_blog_post p, #content div.short_post p {
+	margin-top: 5px;
+}
+
+#content a, #content a:hover {
+	color: #555;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+#content ul {
+	margin-left: 20px;
+	font-size: 11pt;
+}
+
+#content ul.tags {
+	margin-left: 0px;
+}
+div.techno {
+	margin-top: 20px;
+}
+div.techno h2 {
+	margin-left: 70px;
+}
+
+div.techno p.icon {
+	float: left;
+	margin: 10px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+div.techno p.text {
+	margin-left: 70px;
+	font-size: 11pt;
+	line-height: 13pt;
+	margin-top: 10px;
+}
+
+div.fbox {
+  position: relative;
+  top: 150px;
+	background: #888;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+	background: #888;
+	font-size: 10pt;
+	border-top: 1px solid #aaa;
+	color: #DDD;
+  padding-bottom: 40px;
+}
+#footer p {
+	padding: 9pt;
+	text-align: center;
+}
+
+#more, #tweets {
+	margin-top: 65px;
+	padding-left: 15px;
+}
+#more h2, #tweets h2 {
+	margin-top: 10px;
+	font-size: 14pt;
+	margin-left: 20px;
+}
+#more p, #tweets p {
+	margin-left: 20px;
+	font-size: 11pt;
+	line-height: 13pt;
+	margin-top: 10px;
+}
+
+#more li {
+  margin-left: 30px;
+}
+
+#login {
+	margin: 40px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#login img {
+	margin: 10px;
+	margin-bottom: -5px;
+}
+
+input, textarea {
+	background: #FFF;
+	border: 1px solid #CCC;
+	margin: 5px;
+	padding: 2px;
+}
+
+ul.tags {
+	display: inline;
+}
+
+ul.tags li {
+	display: inline;
+	list-style: none;
+	font-size: 9pt;
+}
+
+ul.tags li img {
+	margin-bottom: -5px;
+}
+ul.tags a {
+	text-decoration: none;
+	color: #888;
+}
+
+span.pdate {
+	font-size: 10pt;
+	margin-left: 15px;
+	color: #555;
+}
+
+
+div.post {
+	line-height: 14pt;
+}
+div.post p {
+	font-size: 11pt;
+	line-height: 15pt;
+	margin-top: 10px;
+}
+
+div#pagination {
+	font-size: 10pt;
+	margin-left: 35px;
+}
+
+blockquote p {
+	font-style: italic;
+}
+
+div.clear {
+	clear: both;
+}
+div.left_side {
+	float: left;
+	width: 50%;
+}
+div.right_side {
+	float: right;
+	margin-right: 20px;
+	width: 30%;
+	border: 1px solid #555;
+	background: #222;
+	padding: 0;
+	color: #EEE;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+div#events {
+	float: left;
+	width: 450px;
+	padding-left: 15px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+div#posts {
+	float: right;
+	width: 450px;
+	margin-right: 0;
+	margin-left: 0;
+
+}
+
+div.next_events p {
+  margin-left: 20px
+}
+
+div.past_events {
+  margin-top: 20px;
+}
+
+div.event, div.post {
+	margin-left: 20px;
+}
+
+div.event span.date {
+	font-size: 10pt;
+	color: #AAA;
+}
+div.event span.location {
+	font-size: 10pt;
+}
+div.post span.date {
+	font-size: 10pt;
+	color: #AAA;
+}
+div.post span.tags {
+	font-size: 10pt;
+}
+
+div.event h3.details {
+	font-size: 12pt;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+div.event ul.tags {
+	padding-left: 25px;
+}
+
+div.event p.content {
+	margin-top: 20px;
+}
+
+#footer a, #footer a:hover {
+  color: #DDD;
+  font-family: 'Myriad Pro', Corbel, 'Helvetica Neue', Helvetica, 'Lucida Grande', Verdana, sans-serif;
+  font-size: 10pt;
+}
+
+span.poster img {
+	margin-right : 10px;
+	float : left;
+}
+

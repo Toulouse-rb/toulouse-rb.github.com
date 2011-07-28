@@ -4,10 +4,40 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <title>Toulouse.rb - {{ page.title }}</title>
-    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'> 
+
+    <link href="/css/style.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+    <link rel="alternate" title="Events" href="/events.xml" type="application/rss+xml" /> 
+    <link rel="alternate" title="Blog" href="/blog.xml" type="application/rss+xml" /> 
   </head>
   <body>
-    {{ content }}
+
+    <div id="box">
+
+      <div id="topbar">
+        <h1> 
+          <a href="http://www.toulouserb.org/"><img alt="toulouse.rb" border="0" height="60px" src="/images/logo.png" title="toulouse.rb" /></a> 
+        </h1>
+      </div> 
+
+      <div id="menu"> 
+        <ul> 
+          <li><a href="http://www.toulouserb.org/">Index</a></li> 
+          <li><span class="count">4</span><a href="/events">Evènements</a></li> 
+          <li><span class="count">3</span><a href="/blog_posts">Nouvelles</a></li> 
+          <li><a href="/pages/links">Liens</a></li> 
+          <li><a href="/pages/about">A propos</a></li> 
+        </ul> 
+      </div> 
+
+      <div id="content">
+        {{ content }}
+      </div>
+    </div>
   </body>
 </html>
 
